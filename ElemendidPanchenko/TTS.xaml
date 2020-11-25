@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElemendidPanchenko.TTS">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="speek"
+                    Text="Speak!"
+                    Clicked="speek_Clicked"
+                    VerticalOptions="FillAndExpand"
+                    />
+            <Slider x:Name="peetch"
+                    ValueChanged="peetch_ValueChanged"
+                    Value="0.1"
+                    Minimum="0.1"
+                    Maximum="1"
+                    />
+            <Slider x:Name="voolume"
+                    ValueChanged="voolume_ValueChanged"
+                    Value="0.1"
+                    Minimum="0.1"
+                    Maximum="1"
+                    />
+            <Entry x:Name="text"
+                   Placeholder="Text here"
+                   WidthRequest="500"
+                   HeightRequest="400"
+                   HorizontalTextAlignment="Start"
+                   VerticalTextAlignment="Start"
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

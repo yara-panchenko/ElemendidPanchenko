@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElemendidPanchenko.Timer">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker x:Name="hardware"></Picker>
+            <Label x:Name="mustang"
+                   FontSize="Large"
+                   Text="Ford Mustang on Fordi sportauto. Seda on toodetud 6 põlvkonda. 6. põlvkonnal on Eesti turul müügiks 2 mootorit: 5,0 V8 (420 hj) ja 2,3 R4 (305 hj). Mustang sai 2014 aastal 50 aasta vanuseks."
+                   IsVisible="false"
+                   />
+            <Image x:Name="ford" Source="Resources/drawable/ford.jpg" HeightRequest="150" WidthRequest="150" IsVisible="false"/>
+            <Label x:Name="camaro"
+                   FontSize="Large"
+                   IsVisible="false"
+                   Text="Chevrolet Camarodele korraldatakse juba alates 4. põlvkonnast võistlussarja Camaro Cup, mis meile kõige lähemal toimub Soomes."
+                   />
+            <Image x:Name="chevrolet" Source="Resources/drawable/chevrolet.jpg" IsVisible="false" HeightRequest="150" WidthRequest="150" />
+            <Label x:Name="challenger" 
+                   FontSize="Large"
+                   IsVisible="false"
+                   Text="The Dodge Challenger is the name of three different generations of automobiles (two of those being pony cars) produced by American automobile manufacturer Dodge. However, the first use of the Challenger name by Dodge was in 1959 for marketing a value version of the full-sized Coronet Silver Challenger." 
+                   />
+            <Image x:Name="dodge" Source="Resources/drawable/dodge.jpg" IsVisible="false" WidthRequest="150" HeightRequest="150" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
