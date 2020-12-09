@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace ElemendidPanchenko
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public class CompassTest
+    public partial class CompassTest
     {
         // Set speed delay for monitoring changes.
         SensorSpeed speed = SensorSpeed.UI;

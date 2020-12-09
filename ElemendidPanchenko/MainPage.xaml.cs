@@ -15,7 +15,7 @@ namespace ElemendidPanchenko
         public MainPage()
         {
 
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 9; i++)
             {
                 Button btn = new Button()
                 {
@@ -41,7 +41,15 @@ namespace ElemendidPanchenko
             buttons[6].Clicked += MainPage_Clicked6;
             buttons[7].Text = "Browser";
             buttons[7].Clicked += MainPage_Clicked7;
+            buttons[8].Text = "Magnet";
+            buttons[8].Clicked += MainPage_Clicked8;
         }
+
+        private async void MainPage_Clicked8(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MagnetometerTest());
+        }
+
         private async void MainPage_Clicked7(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Web());

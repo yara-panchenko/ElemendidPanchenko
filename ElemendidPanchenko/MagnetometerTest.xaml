@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElemendidPanchenko.MagnetometerTest">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="dat" Text="123"></Label>
+            <Button x:Name="get" Text="Get data" Clicked="get_Clicked" TextColor="#6B2121" BorderColor="#14F20B" BackgroundColor="#736B6B" 
+                    BorderWidth="1" FontAttributes="Bold,Italic"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
